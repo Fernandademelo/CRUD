@@ -1,0 +1,20 @@
+       /* seletores principais */
+       /* de TAGS, O CODIGO FICA EM TODOS H1  */
+       h1{
+        color: rgba(25, 0, 255, 0.288);
+        font-size: 50px;
+
+    }
+    
+    /* Seletor de ID, fica mais especifico, apenas na tag com esse ID #(tralha) */
+    #tituloPrincipal{
+         color: rgba(25, 0, 255, 0.288);
+         font-size: 50px;
+
+     }
+     /* Seletor de Classe, (.nomedaclasse) ela é */
+     .TitulosSistema {
+        color: rgba(25, 0, 255, 0.288);
+        font-size: 50px;
+
+     }

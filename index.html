@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <!-- Titulo da pagina -->
+    <title>CRUD BASICO</title>
+    <!--Estilos css no html  -->
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- STYLE.CSS -->
+    <link rel="stylesheet" href="style.css">
+    <h1 id="tituloPrincipal" class="tituloSistema"> O FAMOSO CRUD</h1>
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <!-- Sessao: botao adicionar -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3>
+                    CRUD Básico
+                    <small class="text-muted"> Um Sistema de CRUD</small>
+                    <button type="button" class="btn btn-primary float-end">Adicionar Itens</button>
+                </h3>
+            </div>
+        </div>
+        <!--Sessao: Tabela  -->
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-12">
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>  
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
