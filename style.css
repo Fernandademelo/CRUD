@@ -1,20 +1,54 @@
-       /* seletores principais */
-       /* de TAGS, O CODIGO FICA EM TODOS H1  */
-       h1{
-        color: rgba(25, 0, 255, 0.288);
-        font-size: 50px;
+body {
+    text-align: center;
+    margin: 0;
+}
 
-    }
-    
-    /* Seletor de ID, fica mais especifico, apenas na tag com esse ID #(tralha) */
-    #tituloPrincipal{
-         color: rgba(25, 0, 255, 0.288);
-         font-size: 50px;
+header {
+    margin: 0;
+    background-color: #000;
+    color:yellow;    
+    padding: 50px;
+}
 
-     }
-     /* Seletor de Classe, (.nomedaclasse) ela é */
-     .TitulosSistema {
-        color: rgba(25, 0, 255, 0.288);
-        font-size: 50px;
 
-     }
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 60px 30px 230px;
+    background-color: #3b5510;
+    color: #fff;
+}
+
+.wrapper-linguagens {
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+a {
+    color: yellowgreen;
+}
+
+
+
+footer {
+    text-align: left;
+    margin: 0;
+    background-color: #000;
+    color:yellow;    
+    padding: 40px 40px 80px;
+    position: relative;
+
+}
+
+.copyright {
+    text-align: center;
+    position: absolute;
+    left: 590px;
+    bottom: 6px;
+}
