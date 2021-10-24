@@ -45,7 +45,7 @@ const removerItem = (idItem) => {
 const criarElementoRemovedor = (idItem) => {
     const removedor = document.createElement('input');
     removedor.setAttribute("type", "button");
-    removedor.value ='(X)';
+    removedor.value ='(x)';
     removedor.addEventListener('click', () => removerItem(idItem));
     return removedor;
 }
